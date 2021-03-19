@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+  title Ashwini Dance Academy
+    style
+      include ../static/style.css
+  body 
+    nav#navbar
+        ul 
+          div#logo 
+              img(src="/static/icon.png") 
+              | ADA
+          li #[a(href="/") Home] 
+          li #[a(href="/") About] 
+          li #[a(href="/") Services] 
+          li #[a(href="/") Class Info]
+          li #[a(href="/") Contact us] 
+    section#introSection 
+        div Welcome to Ashwini's dance academy 
+          div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our mission
+        div.card 
+            h3 Dance perfection
+            div.card-box
+                  div.card-img
+                      img(src="/static/i1.png") 
+                  div.card-content 
+                       p This is the best dance academy in universe 
+
+        div.card 
+              h3 Dance the way you like
+              div.card-box
+                    div.card-img
+                         img(src="/static/dance.png") 
+                    div.card-content 
+                         p This is the best dance academy in universe 
+
+        div.card 
+            h3 Expert teaching
+            div.card-box
+               div.card-img
+                    img(src="/static/dance1.png") 
+               div.card-content 
+                     p This is the best dance academy in universe 
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsers 
+           img(src="/static/client/google.png", alt="Sponsers Image" Class="spImage")  
+           img(src="/static/client/hp.png", alt="Sponsers Image" Class="spImage")  
+           img(src="/static/client/skype.png", alt="Sponsers Image" Class="spImage")  
+           img(src="/static/client/apple-logo.png", alt="Sponsers Image" Class="spImage")  
+
+    footer#footer 
+        | copyright @ 2021 AshwiniDAnceAcademy.com | All rights reserved
+    script
+      include ../static/index.js

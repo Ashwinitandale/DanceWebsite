@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+    #logo img{
+
+    
+    height: 42px;
+    filter: invert(1);
+
+}
+
+
+
+#navbar{
+    background-color: rgb(223, 124, 124);
+    padding: 23px 44px;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+    #navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: grey; */
+
+}
+#navbar li{
+    /* display: inline; */
+    list-style: none;
+   
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 30px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    padding-bottom: 40px;
+height:425px;
+background-color: red;
+display: flex;
+flex-direction: column;
+color:white;
+font-size: 35px;
+justify-content: center;
+align-items: center;
+background: center/cover no-repeat url("/static/bg.jpg");
+font-family: 'Akaya Telivigala', cursive;
+
+
+
+}
+
+#introSection div.small{
+    font-size: 27px;
+
+}
+#missionSection{
+    /* background-color: burlywood; */
+    height:320px;
+    width: 87%;
+    margin: auto;
+    /* display: block; */
+
+    /* background-color: rgba(207, 86, 70, 0.61); */
+
+}
+#missionSection h2{
+    font-size: 32px;
+    padding-top: 12px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.card{
+    /* align-items: center; */
+    display:inline-block;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+    background-color: rgba(240, 234, 234, 0.801);
+
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: red;
+
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 13px;
+}
+.card-content p{
+    color: rgba(68, 33, 223, 0.562);
+    font-size: 18px;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#sponsorsSection{
+
+    height:300px;
+    background-color: rgba(207, 86, 70, 0.61);
+}
+#sponsers{
+    height: 195px;
+    max-width: 1000px;
+    margin: 27px auto;
+    margin-left: 290px;
+}
+.spImage{
+    height: 80%;
+    margin: 27px;
+
+
+}
+#sponsorsSection h2{
+    font-size: 32px;
+
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Akaya Telivigala', cursive;
+
+
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height:60px;
+background-color: black;
+color: white;
+font-family: 'Akaya Telivigala', cursive;
+
+}
